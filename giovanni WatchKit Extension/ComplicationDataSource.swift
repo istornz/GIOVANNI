@@ -5,7 +5,7 @@
 import ClockKit
 
 enum GioTexts: String {
-    case TitleLeft = "Gio"
+    case TitleLeft = "GIO"
     case TitleRight = ""
     case SubtitleLeft = "GBA"
     case SubtitleRight = "Emulator"
@@ -35,7 +35,7 @@ class ComplicationDataSource: NSObject, CLKComplicationDataSource {
                 return template
         case .modularLarge:
             let t = CLKComplicationTemplateModularLargeStandardBody()
-            t.headerImageProvider = CLKImageProvider(onePieceImage: UIImage(named: "Complication/Circular")!)
+            t.headerImageProvider = CLKImageProvider(onePieceImage: UIImage(named: "Complication/Modular")!)
             t.headerTextProvider = CLKSimpleTextProvider(text: GioTexts.TitleLeft.rawValue)
             t.body1TextProvider = CLKSimpleTextProvider(text: GioTexts.SubtitleLeft.rawValue)
             t.body2TextProvider = CLKSimpleTextProvider(text: GioTexts.SubtitleRight.rawValue)
@@ -50,8 +50,7 @@ class ComplicationDataSource: NSObject, CLKComplicationDataSource {
             return t
         case .utilitarianSmallFlat, .utilitarianSmall:
             let t = CLKComplicationTemplateUtilitarianSmallFlat()
-            t.imageProvider = CLKImageProvider(onePieceImage: UIImage(named: "Complication/Circular")!)
-            t.textProvider = CLKSimpleTextProvider(text: GioTexts.TitleLeft.rawValue)
+            t.imageProvider = CLKImageProvider(onePieceImage: UIImage(named: "Complication/Utilitarian")!)
             return t
         case .utilitarianLarge:
             let t = CLKComplicationTemplateUtilitarianLargeFlat()

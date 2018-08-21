@@ -414,6 +414,7 @@
 		B2FCD4561E813EE900718BCF /* FileManagerAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerAdditions.swift; sourceTree = "<group>"; };
 		D0EEF5E51F7BE2D5002A5F32 /* ComplicationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationDataSource.swift; sourceTree = "<group>"; };
 		D0EEF5EE1F7BF67F002A5F32 /* gallery.ckcomplication */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gallery.ckcomplication; path = ../../Desktop/gallery.ckcomplication; sourceTree = "<group>"; };
+		E76BB425212C2E050009246E /* giovanni_watchOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = giovanni_watchOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -744,6 +745,7 @@
 		B2DC85101E5DC6CC00CC1028 /* giovanni_watchOS */ = {
 			isa = PBXGroup;
 			children = (
+				E76BB425212C2E050009246E /* giovanni_watchOS.entitlements */,
 				B2DC85111E5DC6CC00CC1028 /* Interface.storyboard */,
 				B2DC85141E5DC6CC00CC1028 /* Assets.xcassets */,
 				B2DC85161E5DC6CC00CC1028 /* Info.plist */,
@@ -969,6 +971,11 @@
 						DevelopmentTeam = YSSN4H3QPV;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					B2DC851A1E5DC6CC00CC1028 = {
 						CreatedOnToolsVersion = 8.2.1;
