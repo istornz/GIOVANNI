@@ -12,6 +12,7 @@ Giovanni uses git submodules for it's one dependency, a modified version of the 
 ``` bash
 $ git clone --recursive git@github.com:burntscarr/GIOVANNI.git
 ```
+### NOTICE: You will receive an Xcode Project. Change any occurances of "burntscarr" to that of your own name so that signing the app with your profile will work.
 
 If you are still having issues, please following the tutorial provided by [Redmond Pie](http://www.redmondpie.com/install-giovanni-game-boy-emulator-on-apple-watch-heres-how-tutorial/)
 
