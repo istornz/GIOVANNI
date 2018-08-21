@@ -51,7 +51,7 @@ class ComplicationDataSource: NSObject, CLKComplicationDataSource {
         case .utilitarianSmallFlat, .utilitarianSmall:
             let t = CLKComplicationTemplateUtilitarianSmallFlat()
             t.imageProvider = CLKImageProvider(onePieceImage: UIImage(named: "Complication/Utilitarian")!)
-            t.textProvider = CLKSimpleTextProvider(text: GioTexts.TitleLeft.rawValue)
+            t.textProvider = CLKSimpleTextProvider(text: "")
             return t
         case .utilitarianLarge:
             let t = CLKComplicationTemplateUtilitarianLargeFlat()
