@@ -62,6 +62,11 @@ class ComplicationDataSource: NSObject, CLKComplicationDataSource {
             t.line1ImageProvider = CLKImageProvider(onePieceImage: UIImage(named: "Complication/Circular")!)
             t.line2TextProvider = CLKSimpleTextProvider(text: GioTexts.TitleLeft.rawValue)
             return t
-        }
+        case .graphicCorner: break
+        case .graphicBezel: break
+        case .graphicCircular: break
+        case .graphicRectangular: break
+      }
+      return constructTemplate(for: complication)
     }
 }

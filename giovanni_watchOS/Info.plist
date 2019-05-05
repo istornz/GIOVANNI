@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.burntscarr.giovanni</string>
+	<string>com.dimitridessus.giovanni</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

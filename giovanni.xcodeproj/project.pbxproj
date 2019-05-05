@@ -962,13 +962,13 @@
 					};
 					B2DC84F91E5DC6CB00CC1028 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = YSSN4H3QPV;
+						DevelopmentTeam = C6D6DBHW5C;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					B2DC850B1E5DC6CC00CC1028 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = YSSN4H3QPV;
+						DevelopmentTeam = C6D6DBHW5C;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -979,7 +979,7 @@
 					};
 					B2DC851A1E5DC6CC00CC1028 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = YSSN4H3QPV;
+						DevelopmentTeam = C6D6DBHW5C;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
@@ -990,6 +990,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1196,7 +1197,7 @@
 				INFOPLIST_FILE = gambatte_watchOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.burntscarr.gambatte.watch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitridessus.gambatte.watch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1227,7 +1228,7 @@
 				INFOPLIST_FILE = gambatte_watchOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.burntscarr.gambatte.watch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitridessus.gambatte.watch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1355,7 +1356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = YSSN4H3QPV;
+				DEVELOPMENT_TEAM = C6D6DBHW5C;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "giovanni WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1363,7 +1364,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Gambatte/libgambatte",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.burntscarr.giovanni.watchkit.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitridessus.giovanni.watchkit.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1379,7 +1380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				DEVELOPMENT_TEAM = YSSN4H3QPV;
+				DEVELOPMENT_TEAM = C6D6DBHW5C;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "giovanni WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1387,7 +1388,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Gambatte/libgambatte",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.burntscarr.giovanni.watchkit.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitridessus.giovanni.watchkit.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1405,11 +1406,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = YSSN4H3QPV;
+				DEVELOPMENT_TEAM = C6D6DBHW5C;
 				IBSC_MODULE = giovanni_WatchKit_Extension;
 				INFOPLIST_FILE = giovanni_watchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.burntscarr.giovanni.watchkit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitridessus.giovanni.watchkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1427,11 +1428,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = YSSN4H3QPV;
+				DEVELOPMENT_TEAM = C6D6DBHW5C;
 				IBSC_MODULE = giovanni_WatchKit_Extension;
 				INFOPLIST_FILE = giovanni_watchOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.burntscarr.giovanni.watchkit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitridessus.giovanni.watchkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1449,10 +1450,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YSSN4H3QPV;
+				DEVELOPMENT_TEAM = C6D6DBHW5C;
 				INFOPLIST_FILE = giovanni_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.burntscarr.giovanni;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitridessus.giovanni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -1468,10 +1469,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YSSN4H3QPV;
+				DEVELOPMENT_TEAM = C6D6DBHW5C;
 				INFOPLIST_FILE = giovanni_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.burntscarr.giovanni;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitridessus.giovanni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;

@@ -9,14 +9,14 @@
 
 ## Installation
 
-GIOVANNI uses a git submodule for its one dependency, which is a modified version of the [Gambatte](https://github.com/burntscarr/gambatte) emulator. When cloning, ensure submodules are also pulled down:
+GIOVANNI uses a git submodule for its one dependency, which is a modified version of the [Gambatte](https://github.com/dimitridessus/gambatte) emulator. When cloning, ensure submodules are also pulled down:
 
 ``` bash
-$ git clone --recursive git@github.com:burntscarr/GIOVANNI.git
+$ git clone --recursive git@github.com:dimitridessus/GIOVANNI.git
 ```
 (or clone with a desktop app like Xcode or GitHub Desktop)
 
-### NOTICE: You will receive an Xcode Project. Change any occurances of "burntscarr" to that of your own name so that signing the app with your profile will work.
+### NOTICE: You will receive an Xcode Project. Change any occurances of "dimitridessus" to that of your own name so that signing the app with your profile will work.
 
 If you are still having issues, please follow the tutorial provided by [Redmond Pie](http://www.redmondpie.com/install-giovanni-game-boy-emulator-on-apple-watch-heres-how-tutorial/)
 
@@ -26,7 +26,7 @@ Depending on the version of Xcode used during the last commit, you should be abl
 
 ## Release
 
-There won't be any releases submitted to this GitHub any time soon. I (burntscarr, not gabrieloc) do not currently have the training or knowledge to create IPA or DEB packages for others to install themselves with apps such as Cydia Extender. You'll have to use Xcode to get it on your device for now. (I'm not entirely sure that signing-services sign the Apple Watch app's binaries anyway)
+There won't be any releases submitted to this GitHub any time soon. I (dimitridessus, not gabrieloc) do not currently have the training or knowledge to create IPA or DEB packages for others to install themselves with apps such as Cydia Extender. You'll have to use Xcode to get it on your device for now. (I'm not entirely sure that signing-services sign the Apple Watch app's binaries anyway)
 `(If anyone can help me with this, please do.)`
 
 ## Usage
@@ -56,7 +56,7 @@ Sometimes the app will crash because this (and might not save).
 If the app closes, you will have to re-open it and repeat this process until it works.
 
 ### Colors wrong
-Some games appear to format pixel data differently. The rendering work is done in [GameCoreSnapshots.swift](https://github.com/burntscarr/GIOVANNI/blob/master/gambatte_watchOS/GameCoreSnapshots.swift), you may have luck adjusting how the Core Graphics context is created.
+Some games appear to format pixel data differently. The rendering work is done in [GameCoreSnapshots.swift](https://github.com/dimitridessus/GIOVANNI/blob/master/gambatte_watchOS/GameCoreSnapshots.swift), you may have luck adjusting how the Core Graphics context is created.
 
 ## Known Issues
 
