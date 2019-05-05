@@ -52,11 +52,11 @@ extension GameInput: Hashable {
 	var displaySymbol: String {
 		
 		switch self {
-		case GameInput.up:		return "▲"
-		case GameInput.right:	return "▶︎"
-		case GameInput.down:	return "▼"
-		case GameInput.left:	return "◀"
-		default:				return "●"
+      case GameInput.up:		return "🔼"
+      case GameInput.right:	return "▶️"
+      case GameInput.down:	return "🔽"
+      case GameInput.left:	return "◀️"
+      default:				return "⏺"
 		}
 	}
 }
